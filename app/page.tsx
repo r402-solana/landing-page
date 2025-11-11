@@ -49,7 +49,7 @@ export default function Home() {
             </p>
             <div className="mt-12 flex items-center justify-center gap-4">
               <code className="rounded-xl bg-black px-6 py-4 text-sm font-mono text-white shadow-xl hover:shadow-2xl transition-shadow backdrop-blur-sm">
-                npm install r402-solana
+                npm install r-402
               </code>
             </div>
           </div>
@@ -160,7 +160,7 @@ export default function Home() {
                 </h3>
                 <pre className="rounded-xl bg-white border border-zinc-200/60 p-4 overflow-x-auto shadow-sm">
                   <code className="text-sm font-mono text-black">
-                    npm install r402-solana axios dotenv
+                    npm install r-402 axios dotenv
                   </code>
                 </pre>
               </div>
@@ -200,7 +200,7 @@ export default function Home() {
                   Create the SDK Client
                 </h3>
                 <pre className="rounded-xl bg-white border border-zinc-200/60 p-4 overflow-x-auto shadow-sm">
-                  <code className="text-sm font-mono text-black">{`import { createSigner, r402 } from "r402-solana";
+                  <code className="text-sm font-mono text-black">{`import { createSigner, r402 } from "r-402";
 
 const signer = await createSigner("solana-devnet", privateKey);
 const ai = new r402(signer);`}</code>
